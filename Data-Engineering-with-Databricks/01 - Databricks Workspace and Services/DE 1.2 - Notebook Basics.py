@@ -210,14 +210,14 @@ print("Hello Python!")
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC -- SELECT * FROM demo_tmp_vw
+# MAGIC SELECT * FROM demo_tmp_vw
 
 # COMMAND ----------
 
 # MAGIC %md
 # MAGIC 
 # MAGIC 
-# MAGIC But we can declare it and a handful of other variables and functions buy running this cell:
+# MAGIC But we can declare it and a handful of other variables and functions by running this cell:
 
 # COMMAND ----------
 

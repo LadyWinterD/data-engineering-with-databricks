@@ -331,6 +331,7 @@ SELECT * FROM transactions
 -- MAGIC - **`i`** : the name of the iterator variable. You choose this name and then use it in the lambda function. It iterates over the array, cycling each value into the function one at a time.<br>
 -- MAGIC - **`->`** :  Indicates the start of a function <br>
 -- MAGIC - **`i.item_id LIKE "%K"`** : This is the function. Each value is checked to see if it ends with the capital letter K. If it is, it gets filtered into the new column, **`king_items`**
+-- MAGIC ## don't know too much about this i -> i 
 
 -- COMMAND ----------
 
